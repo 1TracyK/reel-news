@@ -127,10 +127,10 @@
 					console.log(`Fetching news for ${q}, Page number ${page}...`);
 
 					var url =
-						'https://newsapi.org/v2/everything?' +
+						'https://newsapi.org/v2/top-headlines?' +
 						'q=' +
 						q +
-						'&apiKey=0e142e119fdb45c9b09339f0209c8577';
+						'&apiKey=0e142e119fdb45c9b09339f0209c8577&apiKey=0e142e119fdb45c9b09339f0209c8577';
 
 					var req = new Request(url);
 
